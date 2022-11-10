@@ -117,7 +117,13 @@ span {
     padding: .8rem;
     font-weight: 100;
     border-radius: 5px;
+    width: 100%;
     border: 1px solid hsl(219, 14%, 63%);
+}
+
+.private-message:hover {
+    background-color: hsl(210, 60%, 98%);
+    cursor: pointer;
 }
 
 
