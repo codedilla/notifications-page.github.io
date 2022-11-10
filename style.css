@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: .9rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.heading {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(219, 14%, 63%);
+}
+
+.spandiel {
+    background-color: hsl(219, 85%, 26%);
+    color: #FFFAFF;
+    border-radius: 5px;
+    padding: 0.1rem .6rem;
+    margin-left: .2rem;
+    font-size: 1rem;
+}
+
+
+.mark-all {
+    cursor: pointer;
+}
+
+.clr:hover, .post:hover, .user-name:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+span {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 100;    
+    color: hsl(219, 14%, 63%);
+    margin-left: .2rem;
+
+}
+
+.sub-message {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: hsl(219, 85%, 26%);
+}
+
+.post {
+    color: hsl(224, 21%, 14%);
+}
+
+
+.posted {
+    color: hsl(219, 12%, 42%);
+}
+
+.messages {
+    display: flex;
+    width: 100%;
+    padding: .8rem;
+    margin-bottom: 1rem;
+}
+
+.unread {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 5px;
+}
+
+.media-content {
+    width: 15%;
+}
+
+.text-content {
+    width: 70%;
+    margin-left: .8rem;
+}
+
+.noti {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: .4rem;
+    background-color: hsl(1, 90%, 64%);
+    transition: all .35s ease-in-out;
+}
+
+.private-message {
+    margin-top: .6rem;
+    padding: .8rem;
+    font-weight: 100;
+    border-radius: 5px;
+    border: 1px solid hsl(219, 14%, 63%);
+}
+
+
+/* MEDIA QUERIES FOR DESKTOP VIEW */
+
+@media (min-width: 48rem) {
+    body {
+        background-color: hsl(210, 60%, 98%);
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 100%);
+        padding: 2rem;
+        width: 60%;
+        border-radius: 20px;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .media-content {
+        width: 6%;
+    }
+
+    .text-content {
+        width: 82%;
+        margin-left: .8rem;
+    }
+
+    .private-message {
+        margin-top: .6rem;
+        padding: .8rem 1.5rem;
+        font-weight: 100;
+        border-radius: 5px;
+        border: 1px solid hsl(219, 14%, 63%);
+    }
+
+}

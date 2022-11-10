@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="notifications">
+          <h1 class="heading">Notifications <span class="spandiel">3</span></h1>
+        </div>
+        <div class="mark-all">
+          <p class="clr">Mark all as read</p>
+        </div>
+      </header>
+      <section>
+        <div class="messages unread">
+          <div class="media-content">
+            <img src="./assets/images/avatar-mark-webber.webp" alt="" />
+          </div>
+          <div class="text-content">
+            <h6 class="">
+              Mark Webber
+              <span
+                >reacted to your recent post
+                <span class="post"
+                  >My first tournament today!<span class="noti"></span></span
+              ></span>
+            </h6>
+            <div class="time"><p>1m ago</p></div>
+          </div>
+        </div>
+        <div class="messages unread">
+          <div class="media-content">
+            <img src="./assets/images/avatar-angela-gray.webp" alt="" />
+          </div>
+          <div class="text-content">
+            <h6 class="user-name">
+              Angela Gray
+              <span>followed you<span class="noti"></span></span>
+            </h6>
+            <div class="time"><p>5m ago</p></div>
+          </div>
+        </div>
+        <div class="messages unread">
+          <div class="media-content">
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="" />
+          </div>
+          <div class="text-content">
+            <h6 class="">
+              Jacob Thompson
+              <span
+                >has joined your group
+                <span class="post">Chess Club<span class="noti"></span></span
+              ></span>
+            </h6>
+            <div class="time"><p>1 day ago</p></div>
+          </div>
+        </div>
+        <div class="messages">
+          <div class="media-content">
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+          </div>
+          <div class="text-content">
+            <h6 class="">
+              Rizky Hasanuddin
+              <span>sent you a private message</span>
+            </h6>
+            <div class="time"><p>5 days ago</p></div>
+            <div class="private-message">
+              <p class="private">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="messages">
+          <div class="media-content">
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="" />
+          </div>
+          <div class="text-content">
+            <h6 class="">
+              Kimberly Smith
+              <span>commented on your picture</span>
+            </h6>
+            <div class="time"><p>1 week ago</p></div>
+          </div>
+          <div class="media-content">
+            <img src="./assets/images/image-chess.webp" alt="" />
+          </div>
+        </div>
+        <div class="messages">
+          <div class="media-content">
+            <img src="./assets/images/avatar-nathan-peterson.webp" alt="" />
+          </div>
+          <div class="text-content">
+            <h6 class="">
+              Nathan Peterson
+              <span
+                >reacted to your recent post
+                <span class="posted"
+                  >5 end-game strategies to increase your win rate
+                </span></span
+              >
+            </h6>
+            <div class="time"><p>2 weeks ago</p></div>
+          </div>
+        </div>
+        <div class="messages">
+          <div class="media-content">
+            <img src="./assets/images/avatar-anna-kim.webp" alt="" />
+          </div>
+          <div class="text-content">
+            <h6 class="">
+              Anna Kim
+              <span>left the group <span class="post">Chess Club</span></span>
+            </h6>
+            <div class="time"><p>2 weeks ago</p></div>
+          </div>
+        </div>
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Codedilla</a>.
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
